@@ -4,6 +4,8 @@ import Logo from '/logo-qr-generator.svg';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 
 const Home = () => {
   const [text, setText] = useState('');
@@ -67,6 +69,28 @@ const Home = () => {
             onKeyDown={handleKeyPress}
           />
           <button onClick={passToQr}>QR Code</button>
+        </div>
+      </div>
+      <div className='rrss'>
+        <div>
+          <a
+            className='rrss-icon'
+            href='https://www.linkedin.com/in/cristinadeveloper/'
+            target='_blank'
+            title='Perfil Linkedin'
+          >
+            <BsLinkedin />
+          </a>
+        </div>
+        <div>
+          <a
+            className='rrss-icon'
+            href='https://github.com/mistymidnights/qr-generator'
+            target='_blank'
+            title='Repositorio GitHub'
+          >
+            <FaGithub />
+          </a>
         </div>
       </div>
     </>
