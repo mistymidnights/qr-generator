@@ -1,5 +1,5 @@
 import './Home.css';
-import Background from '../../public/bg-illustration.svg';
+import Background from '/public/bg-illustration.svg';
 import Logo from '/logo-qr-generator.svg';
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';

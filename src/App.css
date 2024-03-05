@@ -14,3 +14,32 @@ body {
   background-color: var(--background-color);
   color: var(--text);
 }
+
+.rrss {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  height: 35px;
+  width: 70px;
+}
+
+.rrss > div {
+  height: 35px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.rrss > div > .rrss-icon {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.rrss > div > .rrss-icon:hover {
+  font-size: 24px;
+  opacity: 0.7;
+}
