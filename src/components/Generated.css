@@ -1,0 +1,96 @@
+.qr-main {
+  z-index: 900 !important;
+}
+
+.card-qr {
+  background-color: var(--background-blue);
+  width: 400px;
+  height: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 900px;
+}
+
+.card-qr > .canvas {
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.canvas > svg {
+  width: 100%;
+  height: auto;
+}
+
+.text-generated {
+  padding: 20px 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  color: var(--background-gray);
+}
+
+.text-generated > span {
+  color: var(--blue);
+  opacity: 0.7;
+}
+
+.btn-blue {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  background-color: var(--blue);
+  color: var(--white);
+  border: none;
+  padding: 10px 25px 10px 30px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 42px;
+  max-width: 250px;
+}
+
+.btn-blue > .icon {
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.btn-blue:hover {
+  background-color: rgb(54, 69, 107);
+}
+
+.btn-back {
+  font-family: 'Outfit', sans-serif;
+  font-size: 14px;
+  background-color: #7c47a8;
+  color: var(--white);
+  border: none;
+  padding: 10px 25px 10px 30px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 42px;
+  max-width: 250px;
+}
+
+.btn-back > .icon {
+  font-size: 20px;
+  padding-bottom: 3px;
+}
+
+.btn-back:hover {
+  background-color: #7c47a89a;
+}
+
+@media (max-width: 510px) {
+  .card-qr {
+    width: 250px;
+    height: 250px;
+  }
+
+  .card-qr > .canvas {
+    padding: 20px;
+  }
+}

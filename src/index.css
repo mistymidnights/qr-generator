@@ -1,0 +1,17 @@
+* {
+  --background-color: #111729;
+  --background-blue: #37579b;
+  --background-gray: #364153;
+  --blue: #3662e3;
+  --white: #f2f5f9;
+}
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
