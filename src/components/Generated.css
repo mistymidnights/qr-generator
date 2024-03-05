@@ -93,4 +93,8 @@
   .card-qr > .canvas {
     padding: 20px;
   }
+
+  .text-generated > span {
+    font-size: 12px;
+  }
 }
