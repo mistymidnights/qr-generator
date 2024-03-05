@@ -27,8 +27,8 @@
   background-color: #030617;
   color: var(--white);
   border: 2px solid var(--blue);
-  text-indent: 30px;
   font-family: 'Outfit', sans-serif;
+  padding: 12px 160px 12px 20px;
 }
 
 .input-container > input::placeholder {
@@ -74,5 +74,6 @@
 
   .input-container > input {
     height: 55px;
+    padding: 12px 20px;
   }
 }
